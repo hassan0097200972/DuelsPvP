@@ -1,0 +1,17 @@
+name: DuelsPvP
+version: 1.0.0
+main: me.aura.duel.DuelsPvP
+api-version: '1.21'
+author: Aura
+description: Advanced Duels PvP Plugin
+
+commands:
+  kit:
+    description: Manage PvP kits
+    usage: /kit <add|set|delete|list>
+    permission: duel.admin
+
+permissions:
+  duel.admin:
+    description: Allows managing DuelsPvP kits
+    default: op
